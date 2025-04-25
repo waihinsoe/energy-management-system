@@ -1,13 +1,7 @@
-# Energy Management System for Air Cooler
+# Energy Management System
 
 This project presents a **low-cost Energy Management System (EMS)** designed to optimize electricity usage and avoid energy wastage in household environments, particularly focused on controlling an air cooler. The system is based on the **ESP32 microcontroller** and integrates multiple sensors for real-time monitoring and control.
 
-## 📌 Project Overview
-
-- **Presented by**: Ma Khin Me Me Kyaw (VI EC-24)
-- **Supervised by**: Daw Ei Mon Phyo (Lecturer)
-- **Institution**: Technological University (Toungoo), Department of Electronic Engineering
-- **Seminar Date**: March 2024
 
 ## 🎯 Aim & Objectives
 
@@ -31,7 +25,6 @@ To implement a **low-cost energy management system** that promotes efficient ele
 ## 💻 Software Tools
 
 - **Arduino IDE** – Programming the ESP32.
-- **Proteus Simulator** – Simulating circuits.
 - **Blynk App** – Remote monitoring and control.
 - **Firebase Cloud** – Cloud storage and data sync.
 
@@ -58,10 +51,6 @@ The system continuously collects data from current, voltage, and temperature sen
 4. Receive user commands from Blynk App.
 5. Control the air cooler via SSR module accordingly.
 
-## 📊 Simulation & Results
-
-- The EMS was simulated using Proteus.
-- Demonstrated real-time data reading from the ACS712 sensor connected to ESP32.
 
 ## 📈 Future Work
 
